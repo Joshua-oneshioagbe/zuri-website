@@ -1,0 +1,131 @@
+@import url('http://fonts.cdnfonts.com/css/graphik');
+* {
+    padding: 0%;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.nav-container {
+    display: flex;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Graphik', sans-serif;
+    color: #161617;
+    padding: 30px;
+    /**/
+}
+
+#hire-text {
+    color: #ffffff;
+    margin-left: -30px;
+}
+
+.btn-1 {
+    background-color: #e7332b;
+    width: 270px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+}
+
+.nav-links {
+    padding-left: 400px;
+    width: 100%;
+}
+
+
+/*session 1*/
+
+.first-section {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+}
+
+.left-content {
+    /* width: 100%; */
+    align-items: left;
+    margin-left: -40px;
+}
+
+p {
+    font-size: 40px;
+    font-family: 'Graphik', sans-serif;
+    color: #161617;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+p span {
+    color: #e7332b;
+}
+
+.p-one {
+    font-size: 20px;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 400;
+    color: #787878;
+    width: 70%;
+}
+
+.thick-2 {
+    width: 130px;
+    margin-left: 420px;
+    margin-top: -200px;
+}
+
+.section1-image {
+    width: 65vh;
+}
+
+.btns {
+    display: flex;
+    padding: 20px 30px;
+    column-gap: 25px;
+    margin-left: -20px;
+}
+
+.left {
+    background-color: #e7332b;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-family: 'Graphik', sans-serif;
+    color: #ffffff;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 3px #787878;
+}
+
+.left:hover {
+    box-shadow: 1px 2px 4px #787878;
+}
+
+.right {
+    background-color: #787878;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-family: 'Graphik', sans-serif;
+    color: #ffffff;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 3px #787878;
+}
+
+.right:hover {
+    box-shadow: 1px 2px 4px #787878;
+}
+
+
+/*session 2*/
