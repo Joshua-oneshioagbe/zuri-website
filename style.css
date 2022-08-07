@@ -1,0 +1,200 @@
+@import url('http://fonts.cdnfonts.com/css/graphik');
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Graphik', sans-serif;
+}
+
+body {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Graphik' 'Averta-Regular' sans-serif;
+    /* font-size: 1em; */
+    /* font-weight: 400; */
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: white;
+    text-decoration: none;
+}
+
+body a {
+    text-decoration: none;
+    color: #E7332B;
+}
+
+.content-1 {
+    height: 800px;
+    background-image: url(./images/hero-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.top-image {
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+
+.zuri-img {
+    display: flex;
+    margin-left: 630px;
+}
+
+.intro {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #514949;
+    font-size: 32px;
+    margin-bottom: 36px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.button {
+    margin-top: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-button {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+}
+
+.red-button {
+    background-color: #E7332B;
+    color: white;
+    margin-right: 24px;
+}
+
+.white-button {
+    background-color: white;
+    color: #E7332B;
+}
+
+section.content-2 {
+    background-color: white;
+    overflow: hidden;
+}
+
+.content-a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-a h3 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+}
+
+.content-a p {
+    font-size: 28px;
+    line-height: 40px;
+    color: #514949;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+.container img {
+    margin-top: 60px;
+    margin-left: 35px;
+    padding-bottom: 40px;
+}
+
+.content-2 {
+    background-image: url(./images/left-img.png);
+    background-size: 100px 300px;
+    background-repeat: no-repeat;
+}
+
+.box-a {
+    background-color: #fffafa;
+    margin-left: 10px;
+}
+
+.box-b {
+    background-color: #fffafa;
+}
+
+.box-c {
+    background-color: #fffafa;
+    /* background-image: url(./images/right-img.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.container p {
+    margin-left: 35px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.container a {
+    font-size: 16px;
+    padding-left: 35px;
+}
+
+.footer-container {
+    margin-top: 215px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+
+.footer-container h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #514949;
+    margin-bottom: 8px;
+}
+
+.line hr {
+    margin-left: 60px;
+    margin-right: 60px;
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+
+.copyright p {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #514949;
+    padding-bottom: 97px;
+}
