@@ -13,6 +13,8 @@
     .nav-container {
         display: flex;
         align-items: center;
+        /* position: fixed; */
+        background-color: #fffdf5;
     }
     
     nav a {
